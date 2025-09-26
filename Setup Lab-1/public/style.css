@@ -1,0 +1,68 @@
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  display: flex;
+  flex-direction: column;
+}
+header, footer {
+  background-color: rgb(12, 33, 228);
+}
+h1 {
+  color: mistyrose;
+  font-size: xxx-large;
+  margin: 0;
+  padding: 10px;
+}
+nav {
+  padding: 10px;
+  border: 1px solid #818181;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+nav a {
+  padding: 15px;
+  text-decoration: none;
+  color: rgb(6, 255, 255);
+  font-size: xx-large;
+}
+nav a:hover {
+  padding: 15px;
+  text-decoration: underline;
+  font-style: italic;
+  color: rgb(0, 247, 255);
+}
+main { 
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em;
+  gap: 10px;
+  color: rgb(0, 247, 255);
+}
+article {
+  padding: 10px;
+  border: 1px solid #2bff00;
+  flex: 1;
+}
+article * {
+  text-align: center;
+}
+article img {
+  width: 100%;
+}
+.description {
+	font-family: Verdana, sans-serif;
+}
+footer > * {
+  color: mistyrose;
+  margin: 10px;
+}
+footer a {
+  color: mistyrose;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <!-- Add the 3 required/recommended head elements -->
+    <title>Doogle Search and Validor</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1>Doogle Search and Validator</h1>
+        <form action="https://www.google.com/search" method="get" target="_blank">
+            <fieldset>
+                <legend>Search Doogle</legend>
+                <label for="search">Search Doogle:</label>
+                <input type="search" id="search" name="q">
+            </fieldset>
+            <button type="submit">Search</button>
+        </form>
+
+        <form action="https://validator.w3.org/nu/" method="get" target="_blank">
+            <fieldset>
+                <legend>Validate HTML</legend>
+                <label for="url">Validate this page:</label>
+                <input type="url" id="url" name="doc" >
+            </fieldset>
+            <button type="submit">Validate</button>
+        </form>
+    </body>
+</html>
